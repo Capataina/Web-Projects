@@ -1,0 +1,65 @@
+.app {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1vh;
+  padding: 0.5vh;
+}
+
+.rectangle {
+  width: 100%;
+  min-height: 49vh;
+  border-radius: 10px;
+}
+
+.portfolio-card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+
+  .card-content {
+    text-align: center;
+  }
+
+  .visibility-button {
+    width: 100%;
+    top: 0%;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .toggle-button {
+    width: 100%;
+    height: 95%;
+    top: 5%;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}

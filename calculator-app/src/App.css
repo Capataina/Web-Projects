@@ -1,0 +1,39 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --color-background: #0b040e;
+  --color-primary: #c788e1;
+  --color-secondary: #6f1c91;
+  --color-accent: #b035e2;
+  --color-text: #f3e9f7;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+.pageBackground {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: var(--color-background);
+  display: grid;
+  place-items: center;
+}
+
+.calculator {
+  width: 30vw;
+  height: 45vh;
+  background-color: var(--color-secondary);
+  border-radius: 15px;
+
+  display: grid;
+}
