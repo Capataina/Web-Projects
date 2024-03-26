@@ -1,3 +1,5 @@
-export default function Calculator() {
-  return <div className="calculator"></div>;
+export default function Calculator({ children }) {
+  return <div className="calculator">
+    { children }
+  </div>;
 }
