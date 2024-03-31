@@ -3,10 +3,9 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Calculator from "./Calculator.jsx";
-import ResultsBar from "./ResultsBar.jsx"
-import NumberPad from "./NumberPad.jsx"
-import ArithmeticPad from "./ArithmeticPad.jsx"
-
+import ResultsBar from "./ResultsBar.jsx";
+import NumberPad from "./NumberPad.jsx";
+import ArithmeticPad from "./ArithmeticPad.jsx";
 
 function App() {
   return (
