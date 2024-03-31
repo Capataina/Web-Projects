@@ -79,13 +79,20 @@ body {
   padding: 12px;
 }
 
+.buttonHolder {
+  display: grid;
+  place-items: center;
+}
+
 .button {
+  width: 90%;
+  height: 90%;
   border-radius: 50%;
   background-color: #ba66de;
   transition-duration: 0.4s;
   border: 0px;
   margin: 5%;
-  padding: 0%;
+  padding: 5%;
 
   color: #230c2d;
   font-size: 36px;
@@ -93,12 +100,10 @@ body {
 
 button:hover {
   background-color: #8021a5;
-  transition-duration: 0.4s;
 }
 
 .numberButton:active {
   background-color: #671786;
-  transition-duration: 0.1s;
 }
 
 .resetButton:active {

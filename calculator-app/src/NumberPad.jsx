@@ -1,5 +1,6 @@
 import CalculatorNumberButton from "./CalculatorNumberButton";
 import CalculatorResetButton from "./CalculatorResetButton";
+import CalculatorResultsButton from "./CalculatorResultsButton";
 import "./App.css";
 
 export default function NumberPad() {
@@ -16,6 +17,7 @@ export default function NumberPad() {
       <CalculatorNumberButton button={9}></CalculatorNumberButton>
       <CalculatorResetButton button={"C"}></CalculatorResetButton>
       <CalculatorNumberButton button={0}></CalculatorNumberButton>
+      <CalculatorResultsButton button={"="}></CalculatorResultsButton>
     </div>
   );
 }
