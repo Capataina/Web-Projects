@@ -12,3 +12,5 @@ const ToDoListItem = ({ cardTitle, cardContent }: { cardTitle: String, cardConte
 
   )
 }
+
+export default ToDoListItem;

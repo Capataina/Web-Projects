@@ -1,6 +1,12 @@
+import ToDoListItemForm from "./ToDoListItemForm";
+
 const ToDoListColumn = () => {
   return (
-    <></>
+    <>
+
+      <ToDoListItemForm></ToDoListItemForm>
+
+    </>
   )
 }
 

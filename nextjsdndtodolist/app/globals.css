@@ -40,6 +40,7 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -75,4 +76,40 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Center the ToDoList on the page */
+.todo-list-container {
+  @apply flex items-center justify-center h-screen w-screen;
+}
+
+.todo-list {
+  @apply w-[75%] h-[75%] bg-card p-4 rounded-lg shadow-lg flex;
+}
+
+/* Columns */
+.column {
+  @apply flex-1 border border-input p-4 rounded-lg mx-2;
+}
+
+/* Card Styling */
+.card {
+  @apply bg-card text-card-foreground p-4 rounded-lg shadow-md transition-transform duration-200 ease-in-out;
+}
+
+.card:hover {
+  @apply transform hover:translate-y-[-5px]; /* Slight hover effect */
+}
+
+/* Card content */
+.card-title {
+  @apply font-bold text-lg;
+}
+
+.card-description {
+  @apply hidden text-sm mt-2;
+}
+
+.card:hover .card-description {
+  @apply block; /* Show description on hover */
 }
