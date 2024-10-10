@@ -3,11 +3,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 const ToDoListItem = ({ cardTitle, cardContent }: { cardTitle: String, cardContent: any }) => {
   return (
 
-    <Card>
+    <Card className="card">
       <CardHeader>
-        <CardTitle>cardTitle</CardTitle>
+        <CardTitle className="card-title">{cardTitle}</CardTitle>
       </CardHeader>
-      <CardContent>cardContent</CardContent>
+      <CardContent className="card-description">{cardContent}</CardContent>
     </Card>
 
   )
